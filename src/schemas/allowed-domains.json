@@ -1,0 +1,12 @@
+[
+  "'self'",
+  "*.globalclearance.net",
+  "www.globalclearance.net",
+  "api.globalclearance.net",
+  "localhost",
+  "cdn.jsdelivr.net",
+  "ssb-static.s3.amazonaws.com",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+  "'unsafe-inline'"
+]

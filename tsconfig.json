@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "./build",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": false,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "env.d.ts"
+  ],
+  "exclude": [
+    "src/**/*!{types}.[spec|test].ts",
+    "**/*.js",
+    "src/types.ts"
+  ]
+}

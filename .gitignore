@@ -1,0 +1,21 @@
+# Usual editor/IDE directories/files
+.idea
+.vscode
+
+# Deployment/Compilation files
+build
+dist
+
+# Environment variables declaration files
+.env*
+!.env.template
+
+# Package manager dependencies
+node_modules
+
+.yarn
+.yarnrc
+.yarnrc.yml
+yarn.lock
+
+package-lock.json

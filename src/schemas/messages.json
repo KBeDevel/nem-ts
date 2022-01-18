@@ -1,0 +1,22 @@
+{
+  "DEFAULT_RESPONSE_VALUES": {
+    "INTERNAL_SERVER_ERROR": "Internal server error",
+    "RESOURCE_NOT_FOUND": "Resource not found"
+  },
+  "CONSOLE": {
+    "DEPLOY_ALERT": "Application listening on port",
+    "CONNECTION_ERROR": "Unable to connect to mongo DB",
+    "SSL_DEPLOY_ERROR": "Unable to deploy with HTTPS protocol",
+    "SSL_CERT_NOT_FOUND_ERROR": "Unable to get SSL certificate file",
+    "SSL_KEY_NOT_FOUND_ERROR": "Unable to get SSL key file"
+  },
+  "DEPLOYMENT": {
+    "START_REPORT": "SSB API Started",
+    "SSL_REPORT": "Using SSL?:",
+    "ENVIRONMENT_REPORT": "Environment:",
+    "PLATFORM_REPORT": "Platform:",
+    "MONGO_CONNEcTION_STATUS": "DB Status:",
+    "PORT_LISTENING_REPORT": "Express application listening on port",
+    "LOGGING_ALERT_REPORT": "Logs will be printed bellow:"
+  }
+}

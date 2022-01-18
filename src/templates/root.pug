@@ -1,0 +1,21 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title
+      | Main Page - NEM-TS
+    include ./shared/styles
+  body
+    .bodyWrapper
+      include ./shared/nav-bar
+      .container.subWrapper
+        .row.h-100.align-content-center
+          .col
+            h1.fw-bold
+              | NEM-TS Template API
+            br
+            p
+              | See the source in&nbsp;
+              a(href="https://github.com/KBeDevel/nem-ts", target='_blank', rel='noopener noreferrer nofollow') GitHub
+      include ./shared/footer
+      include ./shared/scripts

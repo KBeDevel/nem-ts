@@ -1,0 +1,7 @@
+[
+  "OPTIONS",
+  "GET",
+  "POST",
+  "PUT",
+  "DELETE"
+]
